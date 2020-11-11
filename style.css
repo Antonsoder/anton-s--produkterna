@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+nav{
+  background: #151515;
+  padding: 5px 40px;
+}
+
+nav ul{
+  list-style:none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li{
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+nav ul li.Meny{
+  position: relative;
+  width: auto;
+  margin: 0 16px;
+  text-align: center;
+  order: 3;
+}
+
+nav ul li.logga{
+  flex: 1;
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+  cursor: default;
+  user-select: none;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: .4s;
+}
+nav ul li:hover a{
+  color: grey;
+}
+
+h1{
+  position: absolute;
+  left: 50%;
+  
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.item img {
+  display: block;
+  height: 250px;
+}
