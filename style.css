@@ -5,6 +5,11 @@
  
 }
 
+body{
+  background-image: url(https://www.wsupercars.com/wallpapers/Polestar/2020-Polestar-1-011-1080.jpg);
+  background-size: cover;
+}
+
 nav{
   background: #151515;
   padding: 5px 40px;
@@ -50,19 +55,42 @@ nav ul li:hover a{
   color: grey;
 }
 
+
 h1{
   position: absolute;
-  left: 50%;
-  
+  left: 5%;
+  top: 35%;
 }
 
 
-.container {
-  display: flex;
-  justify-content: center;
+
+.button1{
+  border: none;
+  color: orange;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 200px 120px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  background-color: black;
 }
 
-.item img {
-  display: block;
-  height: 250px;
+.button1:hover{
+  background-color: gray;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  top: 550px;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+
+
